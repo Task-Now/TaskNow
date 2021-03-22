@@ -7,7 +7,7 @@ export default function Header() {
     
     return (
         <header>
-            <img className="logo" src="icons/logo.svg" alt="Logo"/>
+            <img className="logo" src="assets/logo.svg" alt="Logo"/>
             <Link to="/" style={
                 {color: location === "/" ? "var(--black)" : "var(--grey)"}
             }>Home</Link>
