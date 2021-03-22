@@ -2,6 +2,8 @@ import { AuthProvider } from "./contexts/AuthContext";
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import HomePage from "./pages/HomePage";
 
+import './globals.css';
+
 function App() {
   return (
     <Router>
