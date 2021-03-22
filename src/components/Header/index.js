@@ -18,7 +18,7 @@ export default function Header() {
                 {color: location === "/contact" ? "var(--black)" : "var(--grey)"}
             }>Contato</Link>
             <Link to="/signup">
-                <button type="button" className="">
+                <button type="button" className="signup">
                     Registre-se
                 </button>
             </Link>

@@ -4,7 +4,7 @@ header {
     margin: 1rem 2rem 0;
 }
 
-a, button {
+a, .signup {
     font-size: 1.25rem;
 }
 
@@ -17,7 +17,7 @@ a:not(:last-child){
     margin-right: auto;
 }
 
-button {
+.signup {
     color: #fff;
     background: var(--red);
     border: 0;
